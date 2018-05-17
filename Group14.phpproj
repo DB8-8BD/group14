@@ -1,0 +1,68 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Group14</Name>
+    <ProjectGuid>{35510d30-0199-49c4-8b7f-221ad40c5696}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="css\webd3201.css" />
+    <Compile Include="img\map.gif" />
+    <Compile Include="img\webd3201logo.png" />
+    <Compile Include="includes\constants.php" />
+    <Compile Include="includes\db.php" />
+    <Compile Include="includes\functions.php" />
+    <Compile Include="includes\maps.txt" />
+    <Compile Include="sql\ancillary.sql" />
+    <Compile Include="sql\create-db.sql" />
+    <Compile Include="sql\db_setup.bat" />
+    <Compile Include="sql\profiles.sql" />
+    <Compile Include="sql\set-perms.sql" />
+    <Compile Include="sql\update-states.sql" />
+    <Compile Include="sql\users.sql" />
+    <Compile Include="about.php" />
+    <Compile Include="admin-credentials.txt" />
+    <Compile Include="admin.php" />
+    <Compile Include="aup.php" />
+    <Compile Include="complete-credentials.txt" />
+    <Compile Include="disabled-credentials.txt" />
+    <Compile Include="disabled_users.php" />
+    <Compile Include="footer.php" />
+    <Compile Include="header.php" />
+    <Compile Include="incomplete-credentials.txt" />
+    <Compile Include="index.php" />
+    <Compile Include="interests.php" />
+    <Compile Include="names.php" />
+    <Compile Include="privacy-policy.php" />
+    <Compile Include="profile-create.php" />
+    <Compile Include="profile-display.php" />
+    <Compile Include="profile-images.php" />
+    <Compile Include="profile-search-result.php" />
+    <Compile Include="profile-search.php" />
+    <Compile Include="profile-select-city.php" />
+    <Compile Include="rptCounterResult.pdf" />
+    <Compile Include="user-dashboard.php" />
+    <Compile Include="user-generation-script.php" />
+    <Compile Include="user-login.php" />
+    <Compile Include="user-logout.php" />
+    <Compile Include="user-password-change.php" />
+    <Compile Include="user-password-request.php" />
+    <Compile Include="user-register.php" />
+    <Compile Include="user-update.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css" />
+    <Folder Include="img" />
+    <Folder Include="includes" />
+    <Folder Include="sql" />
+  </ItemGroup>
+</Project>

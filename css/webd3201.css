@@ -1,0 +1,244 @@
+/* Filename: webd3201.css
+** Author: Group 14
+** Description: This is the CSS File for WEBD3201 group project.
+** It currently holds all the tags to modify the looks of the site.
+*/
+
+#container
+{
+	margin-left: 140px;
+	width: 1300px;
+	background: #fff;
+}
+
+#header
+{
+	background: #8D0202;
+	padding: 20px;
+}
+
+#header h1
+ { 
+			margin: 0;
+			display: inline;
+			font-size: 30pt;
+}
+#header img
+ { 
+			vertical-align: middle;
+			width: 250px;
+}
+
+#sites
+{
+	float: left;
+	width: 1300px;
+	background: brown;
+	
+}
+
+#sites ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#sites ul li
+{
+	list-style-type: none;
+	display: inline;
+	font-size: 15pt;
+}
+
+#sites li a
+{
+	display: block;
+	float: right;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#sites li a:hover { 
+				background-color: white; 
+				color: #000;
+}
+
+#navigation
+{
+	clear: left;
+	float: left;
+	width: 200px;
+	height: 100%;
+	padding-bottom: 40%;
+	margin: 0 30px 0 0;
+	display: inline;
+	background-color: #8D0202;
+}
+
+#navigation li a
+{
+	color: white;
+}
+
+#navigation h3 
+{ 
+	margin: 0; 
+	font-size: 150%;
+}
+
+#content-container
+{
+	float: left;
+	width: 1300px;
+	height: 100%;
+	background-color: pink;
+	
+}
+
+#content
+{
+	float: left;
+	width: 860px;
+	padding: 20px 0;
+	display: inline;
+	margin: 0 50px 0 0;
+}
+
+#content h2 { margin: 0; }
+
+
+#footer
+{
+	clear: both;
+	background: #8D0202;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+#footer img{
+	vertical-align: middle;
+}
+
+body
+{
+background-color: #F76161;
+color:black;
+}
+
+a:link
+{
+color:blue;
+}
+a:visited
+{
+color:#000066;
+}
+a:hover
+{
+font-weight:bold;
+}
+a:active
+{
+font-weight:bold;
+font-size:125%;
+color:darkred;
+}
+
+table
+{
+
+}
+
+h5
+{
+font-size:150%;
+}
+
+ul
+{
+list-style-type: square;
+}
+
+ol
+{
+list-style-type: upper-roman;
+}
+
+p
+{
+font-size: 90%;
+font-family: sans-serif;
+}
+
+th
+{
+font-size: 110%;
+font-weight:bold;
+}
+
+caption
+{
+font-size: 80%;
+text-decoration: underline;
+color: #000066;
+font-family: sans-serif;
+}
+
+q
+{
+font-style: italic;
+color: darkred;
+font-family: "courier new";
+}
+
+h4
+{
+font-size: 28pt;
+font-weight: bold;
+text-decoration: underline;
+font-family: Verdana;
+display: inline;
+}
+
+h2
+{
+text-decoration: underline;
+}
+
+strong
+{
+font-size: 14pt;
+font-style: italic;
+font-family: Arial;
+}
+th
+{
+	border-bottom:1px solid #000000;
+}
+.divRight{
+	
+	top: 220px;
+	float: right;
+	right: 170px;
+	width: 100px;
+	height: 33px;
+}
+.highlightListItem{
+	background-color:#9ACD32;
+}
+.selectedDirection{
+	font-family: Arial;
+	font-size:10pt;
+	text-decoration: none;
+}
+.Row{
+	background-color:#F0F8FF;
+}
+.altRow{
+	background-color:#ADD8E6;
+}
+.dottedColumnSpec{
+	border-right:1px solid #000000;
+}

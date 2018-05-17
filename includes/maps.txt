@@ -1,0 +1,21 @@
+<!--
+Author: Ryan Beckett
+Date: Dec. 3, 2017
+-->
+<map id="gta" name="gtamap">
+<area shape="poly" coords="250,200,400,200,330,275,250,275" alt="Toronto" href="profile-select-city.php?city[]=1" />
+<area shape="poly" coords="170,275,300,275,250,330,170,330" alt="Mississauga" href="profile-select-city.php?city[]=8" />
+<area shape="poly" coords="170,330,250,330,200,400,170,400" alt="Oakville" href="profile-select-city.php?city[]=16" />
+<area shape="poly" coords="100,400,200,400,160,440,100,440" alt="Burlington" href="profile-select-city.php?city[]=32" />
+<area shape="poly" coords="75,440,200,440,200,465,100,465" alt="Hamilton" href="profile-select-city.php?city[]=64" />
+<area shape="poly" coords="145,465,250,460,250,490,145,490" alt="Stoney Creek" href="profile-select-city.php?city[]=128" />
+<area shape="poly" coords="325,500,425,500,425,520,325,520" alt="St. Catherines" href="profile-select-city.php?city[]=256" />
+<area shape="poly" coords="400,520,446,520,446,544,400,544" alt="Niagara Falls" href="profile-select-city.php?city[]=512" />
+<area shape="poly" coords="150,230,250,230,250,250,150,250" alt="Brampton" href="profile-select-city.php?city[]=1024" />
+<area shape="poly" coords="250,165,400,165,400,185,250,185" alt="Richmond Hill" href="profile-select-city.php?city[]=2048" />
+<area shape="poly" coords="400,150,475,150,470,175,400,175" alt="Pickering" href="profile-select-city.php?city[]=16384" />
+<area shape="poly" coords="311,135,381,135,381,160,311,160" alt="Markham" href="profile-select-city.php?city[]=4096" />
+<area shape="poly" coords="486,125,554,125,555,154,486,154" alt="Oshawa" href="profile-select-city.php?city[]=2" />
+<area shape="poly" coords="440,122,487,122,487,144,440,144" alt="Whitby" href="profile-select-city.php?city[]=8192" />
+<area shape="poly" coords="263,50,340,50,340,72,263,72" alt="Newmarket" href="profile-select-city.php?city[]=4" />
+</map>
